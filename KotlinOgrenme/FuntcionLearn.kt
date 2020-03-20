@@ -8,6 +8,8 @@ package KotlinOgren
 
      */
         test()
+        mySum(10,20)
+        
 }
 
 fun test(){
@@ -15,4 +17,7 @@ fun test(){
     // {} arasında yazdıklarımız test fonskiyonun altında çalıştırılır
     //oluşturduğumuz her fonskiyonu kessinlikle çağrımamız gerekir
     println("Hello Test")
+}
+fun mySum(a: Int, b: Int){
+    println(a+b)
 }
